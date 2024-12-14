@@ -14,17 +14,18 @@ Welcome to my Tmux configuration repository! This setup is designed to enhance t
     ```
 
 ## Installation 🛠️
-1. Clone this repository:
-    ```sh
-    git clone https://github.com/shadielfares/tmux-config.git ~/.tmux-config
+
+1. Install Tmux Package Manager (TPM):
     ```
-2. Symlink the Tmux configuration file to your home directory:
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    ```
+2. Clone this repository:
     ```sh
-    ln -s ~/.tmux-config/.tmux.conf ~/.tmux.conf
+    git clone https://github.com/shadielfares/tmux-config.git ~/.config/tmux/tmux.conf
     ```
 3. Reload the Tmux configuration:
     ```sh
-    tmux source-file ~/.tmux.conf
+    tmux source ~/.config/tmux/tmux.conf
     ```
 
 ## Usage 🚀
