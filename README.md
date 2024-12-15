@@ -27,6 +27,10 @@ Welcome to my Tmux configuration repository! This setup is designed to enhance t
     ```sh
     tmux source ~/.config/tmux/tmux.conf
     ```
+4. Download the newly added packages, using the command:
+    ```
+    CTRL+B, SHIFT+i
+    ```
 
 ## Usage 🚀
 - **Pane Management**: Easily split windows into multiple panes for a more organized workflow.
