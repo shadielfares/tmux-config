@@ -21,13 +21,13 @@ Welcome to my Tmux configuration repository! This setup is designed to enhance t
     ```
 2. Clone this repository:
     ```sh
-    git clone https://github.com/shadielfares/tmux-config.git ~/.config/tmux/tmux.conf
+    git clone https://github.com/shadielfares/tmux-config.git ~/.config/tmux/
     ```
 3. Reload the Tmux configuration:
     ```sh
     tmux source ~/.config/tmux/tmux.conf
     ```
-4. Download the newly added packages, using the command:
+4. Download the newly added packages, using the command (Note: You must be currently editing the tmux.conf file in tmux):
     ```
     CTRL+B, SHIFT+i
     ```
