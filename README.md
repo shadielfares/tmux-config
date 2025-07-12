@@ -7,6 +7,28 @@ Welcome to my Tmux configuration repository! This setup is designed to enhance t
 - Efficient pane management
 - Enhanced productivity with streamlined shortcuts
 
+## Text Copying Issues 📋
+When working with terminal multiplexers like tmux, especially in conjunction with Neovim, copying text can be challenging. This is a common problem that many users encounter when trying to copy text from tmux panes to the system clipboard.
+
+For a detailed explanation of this issue, see [nvim-config issue #3](https://github.com/shadielfares/nvim-config/issues/3) which describes the copying problem in detail.
+
+### Solution: tmux-yank Plugin
+To solve this copying issue, we recommend installing the [tmux-yank plugin](https://github.com/tmux-plugins/tmux-yank). This plugin enables copying to the system clipboard from tmux copy mode.
+
+**Installation:**
+1. Add the plugin to your tmux.conf:
+   ```
+   set -g @plugin 'tmux-plugins/tmux-yank'
+   ```
+2. Reload tmux configuration and install the plugin using `<Prefix> + I`
+
+**Usage:**
+- Enter copy mode with `<Prefix> + [`
+- Select text with `v` (visual mode) or use mouse selection
+- Copy to clipboard with `y` (copies to system clipboard)
+
+For a visual demonstration of tmux copying techniques, check out this helpful video: https://vimeo.com/102039099
+
 ## Prerequisites 📋
 - Ensure you have Tmux installed on your system. You can install it using your package manager, for example:
     ```sh
