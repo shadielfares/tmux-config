@@ -15,6 +15,10 @@ For a detailed explanation of this issue, see [nvim-config issue #3](https://git
 ### Solution: tmux-yank Plugin
 To solve this copying issue, we recommend installing the [tmux-yank plugin](https://github.com/tmux-plugins/tmux-yank). This plugin enables copying to the system clipboard from tmux copy mode.
 
+## Best Works with iTerm2
+
+Just download it and thank me later, also you'll want to setup this for word deletion in TMUX: [video](https://www.google.com/search?q=configure+option%2Bdelete+to+delete+word+in+iterm2&oq=configure+option%2Bdelete+to+delete+word+in+iterm2&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRifBTIHCAIQIRifBTIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBdIBCDkxNDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:faec4d81,vid:SxRrI2gKT4s,st:26)
+
 **Installation:**
 1. Add the plugin to your tmux.conf:
    ```
