@@ -19,6 +19,19 @@ To solve this copying issue, we recommend installing the [tmux-yank plugin](http
 
 Just download it and thank me later, also you'll want to setup this for word deletion in TMUX: [video](https://www.google.com/search?q=configure+option%2Bdelete+to+delete+word+in+iterm2&oq=configure+option%2Bdelete+to+delete+word+in+iterm2&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQIRifBTIHCAIQIRifBTIHCAMQIRifBTIHCAQQIRifBTIHCAUQIRifBdIBCDkxNDhqMGo3qAIAsAIA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:faec4d81,vid:SxRrI2gKT4s,st:26)
 
+Or you could just do this, go in iTerm2:
+
+Profiles > Keys > Key Bindings
+
+Add, set it to Option + Delete, the action will be `Send Hex Code`, should push up `0x1B 0x08`.
+
+Additionally to move over a space you'll want to 
+
+## Must Configure these shortcuts in iTerm2:
+
+<img width="774" height="124" alt="Screenshot 2025-07-20 at 2 47 26 PM" src="https://github.com/user-attachments/assets/3111d1ca-3bbc-417f-9865-869a5f07b3ff" />
+
+
 **Installation:**
 1. Add the plugin to your tmux.conf:
    ```
