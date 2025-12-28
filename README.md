@@ -1,13 +1,13 @@
-# Tmux Config 🎛️
+# Tmux Config 
 
 Welcome to my Tmux configuration repository! This setup is designed to enhance the functionality of Tmux, particularly in conjunction with Neovim, by allowing for additional panes and improved workflow integration.
 
-## Features ✨
+## Features 
 - Custom Tmux configuration tailored for Neovim users
 - Efficient pane management
 - Enhanced productivity with streamlined shortcuts
 
-## Text Copying Issues 📋
+## Text Copying Issues 
 When working with terminal multiplexers like tmux, especially in conjunction with Neovim, copying text can be challenging. This is a common problem that many users encounter when trying to copy text from tmux panes to the system clipboard.
 
 For a detailed explanation of this issue, see [nvim-config issue #3](https://github.com/shadielfares/nvim-config/issues/3) which describes the copying problem in detail.
@@ -46,13 +46,13 @@ Additionally to move over a space you'll want to
 
 For a visual demonstration of tmux copying techniques, check out this helpful video: https://vimeo.com/102039099
 
-## Prerequisites 📋
+## Prerequisites 
 - Ensure you have Tmux installed on your system. You can install it using your package manager, for example:
     ```sh
     sudo apt-get install tmux
     ```
 
-## Installation 🛠️
+## Installation 
 
 1. Install Tmux Package Manager (TPM):
     ```
@@ -71,12 +71,5 @@ For a visual demonstration of tmux copying techniques, check out this helpful vi
     CTRL+B, SHIFT+i
     ```
 
-## Usage 🚀
-- **Pane Management**: Easily split windows into multiple panes for a more organized workflow.
-- **Custom Key Bindings**: Utilize custom shortcuts to quickly navigate and manage panes.
+## Usage 
 - **Manual Plugin Installation**: Use `<Prefix> + I` while in Tmux to manually install plugins.
-
-## Contributing 🤝
-Contributions are welcome! Please fork this repository and open a pull request with your improvements.
-
-Enjoy an enhanced Tmux experience!
