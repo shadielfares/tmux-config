@@ -1,11 +1,27 @@
-# Tmux Config 
+## Prerequisites 
+- Ensure you have Tmux installed on your system. You can install it using your package manager, for example:
+    ```sh
+    sudo apt-get install tmux
+    ```
 
-Welcome to my Tmux configuration repository! This setup is designed to enhance the functionality of Tmux, particularly in conjunction with Neovim, by allowing for additional panes and improved workflow integration.
+## Installation 
 
-## Features 
-- Custom Tmux configuration tailored for Neovim users
-- Efficient pane management
-- Enhanced productivity with streamlined shortcuts
+1. Install Tmux Package Manager (TPM):
+    ```
+    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+    ```
+2. Clone this repository:
+    ```sh
+    git clone https://github.com/shadielfares/tmux-config.git ~/.config/tmux/
+    ```
+3. Reload the Tmux configuration:
+    ```sh
+    tmux source ~/.config/tmux/tmux.conf
+    ```
+4. Download the newly added packages, using the command (Note: You must be currently editing the tmux.conf file in tmux):
+    ```
+    CTRL+B, SHIFT+i
+    ```
 
 ## Text Copying Issues 
 When working with terminal multiplexers like tmux, especially in conjunction with Neovim, copying text can be challenging. This is a common problem that many users encounter when trying to copy text from tmux panes to the system clipboard.
@@ -45,31 +61,6 @@ Additionally to move over a space you'll want to
 - Copy to clipboard with `y` (copies to system clipboard)
 
 For a visual demonstration of tmux copying techniques, check out this helpful video: https://vimeo.com/102039099
-
-## Prerequisites 
-- Ensure you have Tmux installed on your system. You can install it using your package manager, for example:
-    ```sh
-    sudo apt-get install tmux
-    ```
-
-## Installation 
-
-1. Install Tmux Package Manager (TPM):
-    ```
-    git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
-    ```
-2. Clone this repository:
-    ```sh
-    git clone https://github.com/shadielfares/tmux-config.git ~/.config/tmux/
-    ```
-3. Reload the Tmux configuration:
-    ```sh
-    tmux source ~/.config/tmux/tmux.conf
-    ```
-4. Download the newly added packages, using the command (Note: You must be currently editing the tmux.conf file in tmux):
-    ```
-    CTRL+B, SHIFT+i
-    ```
 
 ## Usage 
 - **Manual Plugin Installation**: Use `<Prefix> + I` while in Tmux to manually install plugins.
